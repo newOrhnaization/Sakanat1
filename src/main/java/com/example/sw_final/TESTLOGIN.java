@@ -9,8 +9,8 @@ public class TESTLOGIN {
         typeuser=x;
 
     }
-    private static  final   String x="user not found";
-    private    static final  String y="incorrect";
+    private static  final   String notFound ="user not found";
+    private    static final  String incorrect ="incorrect";
     private TESTLOGIN()
     {
 
