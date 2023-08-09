@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sw_final.TenantFurnitureController">
+
+    <Label layoutX="184.0" layoutY="25.0" text="Provide Furniture Details for Advertisement:" />
+    <TextField fx:id="furnitureTitleTextField" layoutX="218.0" layoutY="53.0" prefWidth="300.0" />
+    <TextArea fx:id="furnitureDescriptionTextArea" layoutX="218.0" layoutY="102.0" prefHeight="110.0" prefWidth="300.0" />
+    <!-- Add a button to submit the furniture advertisement -->
+    <Button fx:id="advertiseButton" layoutX="267.0" layoutY="346.0" />
+   <ImageView fx:id="furniturePicture" fitHeight="110.0" fitWidth="164.0" layoutX="218.0" layoutY="223.0" pickOnBounds="true" preserveRatio="true" />
+   <Label ellipsisString="" layoutX="58.0" layoutY="46.0" prefHeight="38.0" prefWidth="125.0" text="Any Kind Of Furniture You Want To Sell?" textOverrun="CLIP" wrapText="true">
+      <font>
+         <Font name="Candara Bold" size="12.0" />
+      </font>
+   </Label>
+   <Label layoutX="70.0" layoutY="102.0" text="Discription">
+      <font>
+         <Font name="Candara Bold" size="12.0" />
+      </font>
+   </Label>
+   <Button fx:id="addFurniture" layoutX="35.0" layoutY="265.0" mnemonicParsing="false" onAction="#setAddFurniture" prefHeight="26.0" prefWidth="135.0" text="Upload Photo" />
+</AnchorPane>

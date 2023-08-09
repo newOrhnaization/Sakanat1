@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sw_final.TenantControll">
+    <VBox layoutX="20.0" layoutY="20.0" prefHeight="360.0" prefWidth="560.0">
+    <children>
+        <Label text="Tenant Control Panel:" />
+        <Label fx:id="personalDataLabel" prefHeight="18.0" prefWidth="190.0" />
+        <Label fx:id="ownerContactLabel" prefHeight="18.0" prefWidth="156.0" />
+        <Label fx:id="rentPaymentLabel" prefHeight="18.0" prefWidth="155.0" />
+    </children>
+</VBox>
+</AnchorPane>

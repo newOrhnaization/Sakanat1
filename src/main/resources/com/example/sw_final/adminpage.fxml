@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sw_final.AdminControll">
+   <children>
+      <Button fx:id="request" layoutX="40.0" layoutY="105.0" mnemonicParsing="false" onMouseClicked="#requestcheck" prefHeight="68.0" prefWidth="240.0" text="Request" textFill="#5d41e4">
+         <font>
+            <Font name="Agency FB Bold" size="36.0" />
+         </font>
+      </Button>
+      <Button fx:id="reservation" layoutX="334.0" layoutY="105.0" mnemonicParsing="false" onMouseClicked="#reservationcheck" prefHeight="68.0" prefWidth="240.0" text="reservations" textFill="#5d41e4">
+         <font>
+            <Font name="Agency FB Bold" size="36.0" />
+         </font>
+      </Button>
+      <Button fx:id="addhouse" layoutX="40.0" layoutY="225.0" mnemonicParsing="false" onMouseClicked="#addhouses" prefHeight="68.0" prefWidth="240.0" text="Add Houses" textFill="#5d41e4">
+         <font>
+            <Font name="Agency FB Bold" size="36.0" />
+         </font>
+      </Button>
+      <Button fx:id="modifyhouse" layoutX="334.0" layoutY="225.0" mnemonicParsing="false" onMouseClicked="#modifyhouses" text="Modify  Housing" textFill="#5d41e4">
+         <font>
+            <Font name="Agency FB Bold" size="36.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
