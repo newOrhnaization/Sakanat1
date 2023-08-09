@@ -5,11 +5,7 @@ import java.util.Date;
 public  class TESTINPUT {
     private TESTINPUT() {
     }
-    public static boolean testDate(Date date, int lease ){
-       
 
-        return false;
-    }
 
     public static boolean priceTest(String price) {
         boolean g = false;
