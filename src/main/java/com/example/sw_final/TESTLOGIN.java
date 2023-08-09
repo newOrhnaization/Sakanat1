@@ -62,7 +62,7 @@ public class TESTLOGIN {
         else if(Sakanat.admin1.get(1).getUsername().trim().equals(string2.trim()))
             return true;
         else {
-            JOptionPane.showMessageDialog(null, x, y, JOptionPane.ERROR_MESSAGE);
+            JOptionPane.showMessageDialog(null, notFound, incorrect, JOptionPane.ERROR_MESSAGE);
             return false;
         }
     }
@@ -78,7 +78,7 @@ public class TESTLOGIN {
             }
             else   flag=false;
         }
-        JOptionPane.showMessageDialog(null, x, y, JOptionPane.ERROR_MESSAGE);
+        JOptionPane.showMessageDialog(null, notFound, incorrect, JOptionPane.ERROR_MESSAGE);
         flag=true;
         return  false;
     }
@@ -92,7 +92,7 @@ public class TESTLOGIN {
             else   flag=false;
         }
 
-        JOptionPane.showMessageDialog(null, x, y, JOptionPane.ERROR_MESSAGE);
+        JOptionPane.showMessageDialog(null, notFound,  incorrect, JOptionPane.ERROR_MESSAGE);
         flag=true;
         return  false;
     }
@@ -115,7 +115,7 @@ public class TESTLOGIN {
             else   flag=false;
         }
 
-        JOptionPane.showMessageDialog(null, x, y, JOptionPane.ERROR_MESSAGE);
+        JOptionPane.showMessageDialog(null, notFound, incorrect, JOptionPane.ERROR_MESSAGE);
         flag=true;
         return  false;
     }
@@ -132,7 +132,7 @@ public class TESTLOGIN {
 
         }
 
-        JOptionPane .showMessageDialog(null, x, y, JOptionPane.ERROR_MESSAGE);
+        JOptionPane .showMessageDialog(null, notFound, incorrect, JOptionPane.ERROR_MESSAGE);
         flag=true;
         return  false;
     }
