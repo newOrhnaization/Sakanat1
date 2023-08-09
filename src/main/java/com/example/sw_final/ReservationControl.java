@@ -51,7 +51,7 @@ public class  ReservationControl implements Initializable {
                 imageView.setFitWidth(200);
                 imageView.setPreserveRatio(true);
             } catch (FileNotFoundException e) {
-                e.printStackTrace();
+            logger.log(null, "An error occurred while opening a new window:");
             }
             setlabel();
             houseContainer.getChildren().add(houseBox);
