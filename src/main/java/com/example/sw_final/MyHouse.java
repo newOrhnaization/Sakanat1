@@ -54,7 +54,7 @@ private  String  tenantname;
                 imageView.setPreserveRatio(true);
             }
             catch (FileNotFoundException e) {
-                e.printStackTrace();
+                logger.log(null, "error");
             }
             setlabel();
             houseContainer.getChildren().add(houseBox);
