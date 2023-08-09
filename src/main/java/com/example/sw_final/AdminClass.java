@@ -2,10 +2,7 @@ package com.example.sw_final;
 
 
 public class AdminClass {
-    public AdminClass()
-    {
-
-    }
+    
 
     private String username;
     private  String password;
