@@ -24,7 +24,7 @@ public class HouseListController implements Initializable {
     private VBox houseContainer;
     private Button bookHouse;
     protected    static int houseNum;
-    public static  String IDOwner;
+    public static  String ownerId;
     @Override
     public void initialize(URL location, ResourceBundle resources) {
 
