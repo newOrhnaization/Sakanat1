@@ -46,7 +46,7 @@ public class TenantControlPanel implements Initializable {
                 Label Major = new Label("Major: " + tenant.getUniversityMajors());
                 Label Gender = new Label("Gender: " + tenant.getGender());
                 Label Phone = new Label("Phone Number: " + tenant.getPhoneNumber());
-                Label ownerNumber = new Label("Owner Number: " + HouseListController.IDOwner);
+                Label ownerNumber = new Label("Owner Number: " + HouseListController.ownerId);
 
                 houseBox.getChildren().addAll(
                         tenantName, Age, status,
