@@ -6,9 +6,9 @@ public  class TESTINPUT {
     private TESTINPUT() {
     }
     public static boolean testDate(Date date, int lease ){
-        boolean valid= false;
+       
 
-        return valid;
+        return false;
     }
 
     public static boolean priceTest(String price) {
