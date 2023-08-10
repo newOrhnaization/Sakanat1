@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.sw_final.TenantMainController"
+            prefHeight="400.0" prefWidth="600.0">
+<VBox layoutX="20.0" layoutY="20.0" prefHeight="360.0" prefWidth="560.0">
+    <children>
+        <Label text="List of Housing Residents:" />
+        <!-- You can use a ListView to display a list of residents in the selected student housing -->
+        <ListView fx:id="residentsListView" prefHeight="250.0" prefWidth="560.0" />
+    </children>
+</VBox>
+</AnchorPane>
+

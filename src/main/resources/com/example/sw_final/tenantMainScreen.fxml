@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sw_final.TenantMainController">
+       <Button fx:id="advertiseButton" layoutX="332.0" layoutY="69.0" onAction="#initialize" prefHeight="68.0" prefWidth="164.0" text="Advertise Used Furniture" />
+       <!-- Buttons to access tenant screens -->
+       <Button fx:id="controlPanelButton" layoutX="185.0" layoutY="200.0" onAction="#initialize" prefHeight="68.0" prefWidth="180.0" text="Tenant Control Panel" />
+       <Button fx:id="viewHousingButton" layoutX="44.0" layoutY="67.0" onAction="#initialize" prefHeight="68.0" prefWidth="204.0" text="View Available Houses" />
+</AnchorPane>
