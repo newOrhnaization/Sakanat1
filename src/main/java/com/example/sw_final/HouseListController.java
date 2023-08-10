@@ -93,7 +93,7 @@ public class HouseListController implements Initializable {
                 imageView.setFitWidth(200);
                 imageView.setPreserveRatio(true);
             } catch (FileNotFoundException e) {
-                e.printStackTrace();
+                logger.log(null, "An ele opening a new window:");
             }
 
             Label houseNumberLabel = new Label("House Number: " + house.getNumberhouse());
